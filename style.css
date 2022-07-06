@@ -1621,64 +1621,98 @@ footer h1{
  @media(min-width: 1625px){
   .buttonFirstSection{
     width: 55%;
+  }
+
+  nav{	
+    font-size: 25px;
+  }
+
+
+.firstSection h1{
+  padding-bottom: 55px;
+  font-size: 50px;
 }
 
-.ellipseFirstSection{
-  top: -50px;
-  right: -15%;
-  width: 65%;
+.firstSection h2{
+  font-size: 30px;
 }
 
-.phoneArmFirstSection{
-  width: 716px;
-  height: 582px;
+
+.moreFirstSection{
+padding:20px 11px; 
+font-size: 23px;
 }
 
-.secondSection{
-  position: relative;
-  left: -4%;
+.orderFirstSection{
+padding:25px 11px; 
+font-size: 23px;
 }
 
-.iphone13SecondSection{
-  top: 870px;
-}  
+
+
+.pointsH2{
+    top: 360px;
+    left: 195px;
+    height: 150px;
+}
+
+ .phoneArmFirstSection{
+  width: 468px;
+  height: 525px;
+} 
+
 
 .vectorSecondSectionBackIphone{
-  top: 740px;
+  right: -25%;
 }
 
-  .iphone13Pro{
-    top: 1910px;
-    left: 12%;
-  }
-
-  .ellipseThirdSection{
-    width: 55%;
-    top: 1840px;
-    left: 0%;
-  }
-
-  
-.fifthSection h2{
-  font-size: 28px;
+.iphoneSecondSection{
+top:1050px ;
+left: 400px;
 }
 
-.pointsFooter{
-  position: relative;
-  left: 3%;
+
+.EllipseThirdSection{
+  left: 120px;
 }
+
+.ovalThirdSection{
+  left: 440px;
+}
+
+.firstPhoneThirdSection{
+  top:2340px ;
+  left: 350px;
+}
+
+
+.firstLineThirdSection{
+  top: 1645px;
+  left: 175px;
+} 
+
+.secondLineThirdSection{
+  position: absolute;
+  top: 2195px;
+  right: 0px;
+}
+
+
+.roundTextIphone{
+  left:  625px;
+}
+
+.round{
+  left: 560px;
+  top: 3760px;
+}
+
+
 
 .sixthSection{
   margin-top: 250px;
 }
 
-.TembRights{
-  font-size: 20px;
-}
-
-.iphone13SecondSection{
-  width: 34%;
-}
 
 .vectorSecondSectionBackIphone{
   width: 57%;
@@ -1688,7 +1722,7 @@ footer h1{
   font-size: 32px;
 }
 
- }
+}
 
 @media (min-width: 1800px) { 
 
