@@ -1002,12 +1002,13 @@ margin-top: 34.5px;
   justify-content: center;
 }
 
+
 .roundTextIphone{
   width: 588.86px;
   height: 610.78px;
   position: absolute;
-  /* left: calc(50vw - 270.86px); */
-  left: 490px;
+  /* left: 490px; */
+  left: calc(100vw/2 - 285px);
   top: 3710px;
 }
 
@@ -1015,11 +1016,13 @@ margin-top: 34.5px;
   width: 684px;
   height: 684px;
   position: absolute;
-  left: 430px;
+  /* left: 430px; */
+  left: calc(100vw/2 - 342px);
   top: 3740px;
   z-index: -1;
   animation: rotation 4s infinite linear;
 }
+
 
 @keyframes rotation {
   from {
