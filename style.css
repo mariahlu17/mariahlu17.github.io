@@ -1618,7 +1618,7 @@ footer h1{
 }
 
 
- @media(min-width: 1625px){
+  @media(min-width: 1625px){
   .buttonFirstSection{
     width: 55%;
   }
@@ -1668,45 +1668,31 @@ font-size: 23px;
 
 .iphoneSecondSection{
 top:1050px ;
-left: 400px;
+left: 22%;
 }
 
 
 .EllipseThirdSection{
-  left: 120px;
+  left: 6.5%;
 }
 
 .ovalThirdSection{
-  left: 440px;
+  left: 25%;
 }
 
 .firstPhoneThirdSection{
-  top:2340px ;
-  left: 350px;
+  left: 20%;
 }
 
 
-.firstLineThirdSection{
+/* .firstLineThirdSection{
   top: 1645px;
-  left: 175px;
-} 
+  left: 7.2%;
+}  */
 
 .secondLineThirdSection{
-  position: absolute;
   top: 2195px;
-  right: 0px;
 }
-
-
-.roundTextIphone{
-  left:  625px;
-}
-
-.round{
-  left: 560px;
-  top: 3760px;
-}
-
 
 
 .sixthSection{
