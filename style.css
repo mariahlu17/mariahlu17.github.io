@@ -728,10 +728,9 @@ margin-top: 34.5px;
   .firstLineThirdSection{
     position: absolute;
     top: 1640px;
-    left: 40px;
+    left: 140px;
     width: 244px;
-    height: 319px;
-    /* z-index:1; */
+    height: 270px;
   } 
 
   .secondLineThirdSection{
