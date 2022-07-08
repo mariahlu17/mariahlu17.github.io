@@ -1,0 +1,2752 @@
+html {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    
+}
+
+a{
+    text-decoration:none;
+    color: #2247AF;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    z-index: 3;
+}
+
+nav{
+    width: 75%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;	
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 120.00000476837158%;
+    font-stretch: normal;
+}
+
+
+
+.firstSection{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top:60px;
+    width: 100%;
+    height: 700px;
+}
+
+.firstSection h1{
+    color:#2247AF;
+    padding-bottom: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.firstSection h2{
+    position: relative;
+    left: 25px;
+    padding-bottom: 30px;
+    color: rgba(34, 71, 175, 1);
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 49px;
+    text-decoration: none;
+}
+
+.textFirstSection{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.moreFirstSection{
+  padding:20px 11px; 
+  width:321px;
+  height: 74px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  object-fit: cover;
+  text-decoration:none;
+  border:solid 4px #295bbf; 
+  -webkit-border-radius:24px;
+  -moz-border-radius:24px; 
+  border-radius: 24px; 
+  color:#427ad4; 
+  -webkit-box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff; 
+  -moz-box-shadow: 0px 2px 8px #2b2b2b,  inset 0px 0px 1px #ffffff;  
+  box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff;
+  margin-right: 15px;
+}
+
+.buttonFirstSection :first-child:hover{
+  color: #ffffff;
+  border: solid 0px #ffffff;
+  background: linear-gradient(92.19deg, #2247AF -4.5%, #458DFC 100%);
+  box-shadow: inset 4px 4px 10px rgba(151, 195, 249, 0.7);
+}
+
+.buttonFirstSection :nth-child(2):hover{
+  color:#2247AF; 
+  background-image:linear-gradient(92.19deg, #FFFFFF -4.5%, #93C1F9 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.buttonFirstSection{
+    display: flex;
+    width: 60%;
+    height: 170px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.orderFirstSection{
+  color: rgba(255, 255, 255, 1);
+  padding:20px 11px; 
+  width:321px;
+  height: 74px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 24px;
+  text-decoration: none;
+  padding:22px 11px; 
+  border:none; 
+  background-color:#2248af; 
+  background-image: -moz-linear-gradient(top, #2248af 0%, #458efc 100%); 
+  background-image: -webkit-linear-gradient(top, #2248af 0%, #458efc 100%); 
+  background-image: -o-linear-gradient(top, #2248af 0%, #458efc 100%); 
+  background-image: -ms-linear-gradient(top, #2248af 0% ,#458efc 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#458efc', endColorstr='#458efc',GradientType=0 ); 
+  background-image: linear-gradient(top, #2248af 0% ,#458efc 100%);   
+  -webkit-box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff; 
+  -moz-box-shadow: 0px 2px 8px #2b2b2b,  inset 0px 0px 1px #ffffff;  
+  box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff;
+}
+
+.phoneArmFirstSection{
+    position: absolute;
+    top: 150px;
+    right: 12%;
+    width: 418px;
+    height: 475px;
+    z-index: -1;
+}
+
+.ellipseFirstSection{
+    position: absolute;
+    top: 200px;
+    right: -15%;
+    z-index: -2;
+    width: 65%;
+    opacity: 70%;
+}
+
+
+.vectorFirstSection{
+    position: absolute;
+    top: 140px;
+    left: -15%;
+    z-index: -1;
+    width: 45%;
+}
+
+.logo{
+    position: absolute;
+    top: 43px;
+    left: 4%;
+}
+
+.vectorArmFirstSection{
+    position: absolute;
+    top: 750px;
+    right: -3%;
+    z-index: -1;
+    width: 20%;
+}
+
+.miniElipseFirstSection{
+  width: 138.03px;
+  height: 139.49px;
+  position: absolute;
+  top:680px;
+  left: 400.02px;
+}
+
+.pointsH2{
+    position: absolute;
+    top: 355px;
+    left: 195px;
+    height: 140px;
+}
+
+.secondSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+}
+
+.secondSectionContent{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(242.6deg, #B1D4FF 6.07%, rgba(200, 225, 255, 0.17) 99.09%);
+  width: 1285px;
+  height: 700px;
+  border-radius: 100px;
+
+}
+
+.secondSectionFirstText{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  color: #2247AF;
+  padding-bottom: 15px;
+  margin-top: 80px;
+  z-index: 1;
+  opacity: 1;
+}
+
+  .secondSectionSecondText{
+    width: 553px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: right;
+    color: #2247AF;
+    padding-right: 50px;
+    margin-bottom: 25px;
+  }
+
+.buttonSecondSection{
+  position: relative;
+  right: 2%;
+  width: 300px;
+  height: 67px;
+  object-fit: cover;
+  text-decoration:none; 
+  text-align:center; 
+  /* padding:67px, 67px;  */
+  padding: 15px;
+  border:solid 4px #295bbf;
+  -webkit-border-radius:24px;
+  -moz-border-radius:24px; 
+  border-radius: 24px; 
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  background:#ffffff; 
+  -webkit-box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff; 
+  -moz-box-shadow: 0px 2px 8px #2b2b2b,  inset 0px 0px 1px #ffffff;  
+  box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff;
+  margin-bottom: 10px;
+  
+}
+
+.secondSection a:hover{
+  color: #ffffff;
+  border: solid 0px #ffffff;
+  background: #2247AF;
+  box-shadow: inset 4px 4px 10px rgba(151, 195, 249, 0.7);
+}
+
+.secondSectionMainContent{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-end;
+  padding-right: 140px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 582px;
+  margin-top: 60px;
+  margin-bottom: 45px;
+}
+
+.icons img{
+  margin-right:50px;
+}
+
+.icons p{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2247AF;
+  margin-right: 52px;
+  margin-top: 15px;
+  width: 140px;
+}
+
+.vectorSecondSection{
+    position: absolute;
+    top: 1120px;
+    left: -7%;
+    z-index: -4;
+    width: 47%;
+}
+
+.vectorSecondSectionBackIphone{
+    position: absolute;
+    top: 800px;
+    right: -20%;
+    z-index: -2;
+    width: 50%;
+}
+
+.iphoneSecondSection{
+  position: absolute;
+  top:1050px ;
+  left: 282.75px;
+  width: 298px;
+  height: 360.25px;
+}
+
+.Ellipse6{
+  position: absolute;
+  top:980px ;
+  left: -111px;
+  z-index: -1;
+}
+
+.Ellipse5{
+  position: absolute;
+  top: 1450px;
+  left: 543px;
+  z-index: -1;
+}
+
+.Ellipse2{
+  position: absolute;
+  top: 1420px;
+  right: 0px;
+  z-index: -1;
+}
+
+.linesSecondSection{
+  position: absolute;
+  top: 820px;
+  left: 0px;
+  z-index: -3;
+  opacity: 0.8;
+}
+
+.thirdSection h1{
+  width: 469px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-top:40px;
+  margin-bottom: 31px;
+}
+
+.thirdSection h2{
+  width: 496px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 45px;
+  color: #2247AF;
+  padding-bottom: 25px;
+}
+
+.aboutThirdSection{
+  width: 350px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2247AF;
+  margin-bottom: 40px;
+}
+
+.button{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  width: 300px;
+  height: 72.86px;
+  text-decoration:none; 
+  padding:16px 11px; 
+  border:solid 4px #295bbf; 
+  -webkit-border-radius:24px;
+  -moz-border-radius:24px; 
+  border-radius: 24px; 
+  background:#ffffff; 
+  -webkit-box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff; 
+  -moz-box-shadow: 0px 2px 8px #2b2b2b,  inset 0px 0px 1px #ffffff;  
+  box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  }
+
+  .thirdSection a:hover{
+    color: #ffffff;
+    border: solid 0px #ffffff;
+    background: #2247AF;
+    box-shadow: inset 4px 4px 10px rgba(151, 195, 249, 0.7);
+  }
+
+  .thirdSection{
+    width: 100%;
+    height: auto;
+    margin-top:120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+
+  .thirdSectionContent{
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(147, 193, 249, 0.19) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items:center;
+  }
+
+  .thirdSectionMainText{
+    width: 1036px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 140%;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .thirdSectionText{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -22%;
+    top:150px;
+    padding-top: 40px;
+    margin-bottom: 150px;
+  }
+
+  .thirdSectionAnimation{
+    width: 949px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 58px;
+    margin-top: 20px;
+    z-index:3;
+    position: absolute;
+    top: 232px;
+  }
+
+  .rectangleThirdSEctionAnimation{
+    position: relative;
+    top: 50px;
+    height: 280px;
+    width: 949px;
+    /*box-shadow:59px 40px 70px #93C1F9, inset 0px 0px 1px #ffffff,
+    -49px -8px 70px #93C1F9, inset 0px 0px 1px #ffffff; */
+  }
+
+  .thirdSectionAnimationFirst{
+    width: 237.66px;
+    height: 276.39px;
+    background-color: #fff;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+    margin-top: 20px;
+    color: #264CBD;
+  }
+
+  .activethirdSectionAnimationFirst{
+    height: 322.85px;
+    background-color: #264CBD;
+    position:relative;
+    top: -20px;
+    color: #fff;
+  }
+
+  .activethirdSectionAnimationFirst p{
+    color: #fff;
+  }
+
+  .thirdSectionAnimationSecond{
+    width: 237.66px;
+    height: 276.39px;
+    background-color: #fff;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: #264CBD;
+  }
+
+  .activethirdSectionAnimationSecond{
+    height: 322.85px;
+    background-color: #264CBD;
+    position:relative;
+    top: -20px;
+    color: #fff;
+  }
+
+  .activethirdSectionAnimationSecond p{
+    color: #fff;
+  }
+
+  .thirdSectionAnimationThird{
+    width: 237.66px;
+    height: 276.39px;
+    background-color: #fff;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: #264CBD;
+  }
+
+  .activethirdSectionAnimationThird{
+    height: 322.85px;
+    background-color: #264CBD;
+    position:relative;
+    top: -20px;
+    color: #fff;
+  }
+
+  .activethirdSectionAnimationThird p{
+    color: #fff;
+  }
+
+  .thirdSectionAnimationFourth{
+    width: 237.66px;
+    height: 276.39px;
+    background-color: #fff;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: #264CBD;
+  }
+
+  .activethirdSectionAnimationFourth{
+    height: 322.85px;
+    background-color: #264CBD;
+    position:relative;
+    top: -20px;
+    color: #fff;
+  }
+
+  .activethirdSectionAnimationFourth p{
+    color: #fff;
+  }
+
+  .thirdSectionAnimationFirst img{
+      margin-top: 40px;
+    
+  }
+
+  .thirdSectionAnimationFirst p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    margin-top: 34.5px;
+  } 
+
+
+  .thirdSectionAnimationSecond img{
+    margin-top: 40px;
+  
+}
+
+.thirdSectionAnimationSecond p{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  margin-top: 34.5px;
+}
+
+.thirdSectionAnimationThird img{
+  margin-top: 40px;
+
+}
+
+.thirdSectionAnimationThird p{
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+letter-spacing: -0.2px;
+margin-top: 34.5px;
+}
+
+.thirdSectionAnimationFourth img{
+  margin-top: 40px;
+
+}
+
+.thirdSectionAnimationFourth p{
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+letter-spacing: -0.2px;
+margin-top: 34.5px;
+}
+
+
+  .EllipseThirdSection{
+    position: absolute;
+    top:2140px ;
+    left: -50px;
+    z-index: -3;
+  }
+
+  .ovalThirdSection{
+    position: absolute;
+    top:2440px ;
+    left: 240px;
+    width: 321px;
+    height: 321px;
+  }
+
+  .firstPhoneThirdSection{
+    position: absolute;
+    top:2340px ;
+    left: 150px;
+    width: 484px;
+    height: 470px;
+    animation: fade 5s linear infinite;
+    animation-delay: 2.5s;
+  }
+
+  @keyframes fade {
+    0% { opacity: 1 }
+    50% { opacity: 0 }
+    100% { opacity: 1 }
+  }
+
+  .firstLineThirdSection{
+    position: absolute;
+    top: 1640px;
+    left: 140px;
+    width: 244px;
+    height: 270px;
+  } 
+
+  .secondLineThirdSection{
+    position: absolute;
+    top: 2190px;
+    right: 0px;
+  }
+
+  .fourthSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fourthSection h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+    color: #2247AF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .consultationH2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.408px;
+    color: #343434;
+    margin-left: 5px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .consultationText{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170%;
+    letter-spacing: -0.41px;
+    color: #969696;
+    margin-left: 5px;
+    margin-bottom: 79px;
+  }
+
+  .consultationImg{
+    width: 64px;
+    height: 64px;
+    margin-left: 5px;
+  }
+
+  .consultation{
+    width: 276px;
+    height: 344px;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 10px 40px #5597FC, inset 0px 0px 1px #ffffff,9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 10px 40px #5597FC,  inset 0px 0px 1px #ffffff,9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff;
+    box-shadow:0px 10px 40px #5597FC, inset 0px 0px 1px #ffffff,
+    9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    padding-top: 30px; 
+    margin-bottom: 50px; 
+    
+  }
+
+  .tracking{
+    width: 276px;
+    height: 344px;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 10px 40px #5597FC, inset 0px 0px 1px #ffffff,9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 10px 40px #5597FC,  inset 0px 0px 1px #ffffff,9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff;
+    box-shadow:0px 10px 40px #5597FC, inset 0px 0px 1px #ffffff,
+    9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 30px;
+    z-index: 1;
+    background-color: #ffffff;
+    margin-bottom: 50px; 
+    margin-right: 30px;
+  }
+
+  .trackingH2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.408px;
+    color: #343434;
+    margin-top: -10px;
+    margin-left: 5px;
+    height: 35px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .trackingText{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170%;
+    letter-spacing: -0.41px;
+    color: #969696; 
+    margin-left: 5px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .trackingImg{
+    width: 64px;
+    height: 64px;
+    margin-left: 5px;
+  }
+
+  .aTracking{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;  
+    letter-spacing: -0.408px;
+    text-decoration-line: underline;
+    color: #2247AF;
+    margin-left: 5px;
+    height: 25px;
+  }
+
+  .Advantages{
+    width: 1500px;
+    height:494px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 35px;
+  }
+
+  .detailInfo{
+    width: 276px;
+    height: 344px;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 10px 40px #5597FC, inset 0px 0px 1px #ffffff,9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 10px 40px #5597FC,  inset 0px 0px 1px #ffffff,9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff;
+    box-shadow:0px 10px 40px #5597FC, inset 0px 0px 1px #ffffff,
+    9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 30px;
+    margin-bottom: 50px; 
+    margin-right: 30px;
+    
+  }
+
+  .detailInfoImg{
+    width: 64px;
+    height:64px;
+    margin-left: 5px;
+  }
+
+  .detailInfoH2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.408px;
+    color: #343434;
+    margin-left: 5px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .detailInfoText{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170%;
+    letter-spacing: -0.41px;
+    color: #969696;
+    margin-left: 5px;
+    margin-bottom: 79px;
+}
+
+.emergencyCare{
+    width: 276px;
+    height: 344px;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 10px 40px #5597FC, inset 0px 0px 1px #ffffff,9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 10px 40px #5597FC,  inset 0px 0px 1px #ffffff,9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff;
+    box-shadow:0px 10px 40px #5597FC, inset 0px 0px 1px #ffffff,
+    9px -5px 40px #5597FC, inset 0px 0px 1px #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 30px;
+    margin-bottom: 50px; 
+    margin-right: 30px;
+}
+
+.emergencyCareImg{
+    width: 64px;
+    height: 64px;
+    margin-left: 5px;
+}
+
+.emergencyCareH2{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.408px;
+  color: #343434;
+  margin-left: 5px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.emergencyCareText{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 170%;
+  letter-spacing: -0.41px;
+  color: #969696;
+  margin-left: 5px;
+  margin-bottom: 79px;
+}
+
+.pointsFourthSection{
+  position:absolute;
+  top: 2775px;
+  right:27.5%; 
+  z-index: -1;
+}
+
+
+.roundTextDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.roundTextIphone{
+  width: 588.86px;
+  height: 610.78px;
+  position: absolute;
+  /* left: 490px; */
+  left: calc(100vw/2 - 285px);
+  top: 3710px;
+}
+
+.round{
+  width: 684px;
+  height: 684px;
+  position: absolute;
+  /* left: 430px; */
+  left: calc(100vw/2 - 342px);
+  top: 3740px;
+  z-index: -1;
+  animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.infusion{
+  position: absolute;
+  top: 3700px;
+}
+
+.thermoGun{
+  position: absolute;
+  top: 3750px;
+  right: 0%;
+}
+
+.syringe{
+  position: absolute;
+  top: 4200px;
+  
+}
+
+.stetoscope{
+  position: absolute;
+  top: 4100px;
+  right: 0%;
+}
+
+
+.fifthSection{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fifthSection h1{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  background: linear-gradient(260.14deg, #427BD5 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: 100%;
+  height: 58px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.fifthSection h2{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  background: linear-gradient(260.14deg, #427BD5 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: 100%;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  text-align: center;
+}
+
+ #flastname{
+    width: 425px;
+    height: 90px;
+    padding: 29.7px 49.6px;
+    outline:none; 
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(34, 71, 175, 0.7);
+    border-radius: 30px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    margin-right: 10px;
+} 
+
+#flastname:hover{
+  background-color: #2247AF;
+}
+
+#fname{
+  width: 425px;
+  height: 90px;
+  padding: 31.67px 55.09px;
+  outline:none; 
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background: rgba(34, 71, 175, 0.7);
+  border-radius: 30px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+#fname:hover{
+  background-color: #2247AF;
+}
+
+#fadress{
+  width: 870px;
+  height: 90px;
+  padding: 31.67px 55.09px;
+  outline:none; 
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background: rgba(34, 71, 175, 0.7);
+  border-radius: 30px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+#fadress:hover{
+  background-color:#2247AF;
+}
+
+#fmail{
+  width: 870px;
+  height: 90px;
+  padding: 31.67px 55.09px;
+  outline:none; 
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background: rgba(34, 71, 175, 0.7);
+  border-radius: 30px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+#fmail:hover{
+  background-color: #2247AF;
+}
+
+#ftel{
+  width: 870px;
+  height: 90px;
+  padding: 31.67px 55.09px;
+  outline:none; 
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background: rgba(34, 71, 175, 0.7);
+  border-radius: 30px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+#ftel:hover{
+  background-color: #2247AF;
+}
+
+input::placeholder{
+  color: #ffffff;
+}
+
+
+#fsubbutton{
+  width: 275px;
+  height: 72.86px;
+  object-fit: cover;
+  text-decoration:none; 
+  text-align:center; 
+  padding:16px 11px; 
+  border:solid 4px #295bbf; 
+  -webkit-border-radius:24px;
+  -moz-border-radius:24px; 
+  border-radius: 24px; 
+  font-size: 25px;
+  font-weight:bold; 
+  color:#427ad4; 
+  background:#ffffff; 
+  -webkit-box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff; 
+  -moz-box-shadow: 0px 2px 8px #2b2b2b,  inset 0px 0px 1px #ffffff;  
+  box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff;
+  margin-bottom: 15px;
+  margin-left: 15px; 
+  margin-top: 26px;
+}
+
+#tembForm :nth-child(6):hover{
+  color: #ffffff;
+  background: #2247AF;
+  box-shadow: inset 4px 4px 10px rgba(151, 195, 249, 0.7);
+  border: solid 0px #ffffff;
+  
+}
+
+#tembForm{
+  width: 930px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.sixthSection{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 155px;
+}
+
+.sixthSectionMainText{
+  width: 334px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.sixthSection h1{
+  height: 120px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: justify;
+  background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-top: 50px;
+}
+
+.answers{
+  width: 299px;
+  height: auto;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  color: #1648CE;
+}
+
+.questions{
+  width:760px;
+  height: auto;
+  color: rgba(34, 71, 175, 1);
+  margin-top: 25px;
+}
+
+.questionFirst{
+  width: 318px;
+  height:auto;
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-shrink: 1;
+  border-color: transparent;
+  border: 3px solid #2247AF;
+  border-radius: 30px;
+  white-space: nowrap;
+  margin-bottom: 32px;
+  background-color: #fff;
+  color: rgba(34, 71, 175, 1);
+  margin-top: 50px;
+}
+
+.active{
+  width: 746px;
+}
+
+.answerFirst{
+  margin-bottom: 25px;
+  display: none;
+  height: 250px;
+}
+
+.active{
+  display: block;
+}
+
+.questions p{
+  padding: 23px 50px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 130%;
+}
+
+
+.questionSecond{
+  width: 746px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border: 3px solid #2247AF;
+  border-radius: 30px;
+  white-space: nowrap;
+  margin-bottom: 32px;
+  background-color: #ffffff;
+}
+
+.answerSecond{
+  margin-bottom: 25px;
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+.questionThird{
+  width: 746px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border: 3px solid #2247AF;
+  border-radius: 30px;
+  white-space: nowrap;
+  margin-bottom: 32px;
+  background-color: #ffffff;
+}
+
+.answerThird{
+  display: none;
+  height: 400px;
+}
+
+.active{
+  display: block;
+}
+
+.questionFourth{
+  width: 540px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border: 3px solid #2247AF;
+  border-radius: 30px;
+  white-space: nowrap;
+  margin-bottom: 32px;
+  background-color: #ffffff;
+}
+
+.active{
+  width: 746px;
+}
+
+.answerFourth{
+  margin-bottom: 25px;
+  display: none;
+}
+
+.active{
+  display: block;
+  color:#ffffff;
+}
+
+.questionFifth{
+  width: 746px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border: 3px solid #2247AF;
+  border-radius: 30px;
+  white-space: nowrap;
+  margin-bottom: 32px;
+  background-color: #ffffff;
+}
+
+.answerFifth{
+  margin-bottom: 25px;
+  display: none;
+  height: 200px;
+}
+
+.questions p:hover{
+  color:#ffffff;
+}
+
+.questions div:hover{
+  border: 4px solid #ffffff;
+  background-color: #2247AF;
+}
+
+.active{
+  display: block;
+  background: linear-gradient(260.14deg, #427BD5 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+}
+
+.questionsImg{
+  position: absolute;
+  top: 5800px;
+}
+
+.ourTeam{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 270px;
+}
+
+.ourTeamContent{
+  width: 90%;
+  background: linear-gradient(242.6deg, #B1D4FF 6.07%, rgba(200, 225, 255, 0.5) 99.09%);
+  /* opacity: 0.8; */
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourTeamContent h1{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  /* text-align: center; */
+  text-transform: uppercase;
+  color: #2247AF;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.ourTeamImg{
+  width: 1124px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ourTeamImg h2{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #2247AF;
+  margin-top: 16px;
+  height: 27px;
+}
+
+.ourTeamImg h3{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #2247AF;
+  margin-top: 10px;
+  margin-bottom: 46px;
+  height: 27px;
+}
+
+.ourTeamImg div{
+  width: 204px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ivan{
+  margin-left: 220px;
+}
+
+.bohdan{
+  margin-right: 200px;
+}
+
+.ellipse7{
+  position: absolute;
+  top:6450px ; 
+  left: 0px;
+  width: 356px;
+  height: 330px;
+  z-index: -1;
+}
+
+.ellipse8{
+  position: absolute;
+  top:6970px ;
+  right: 30px;
+  width: 356px;
+  height: 330px;
+  z-index: -1;
+}
+
+.ellipse9{
+  position: absolute;
+  top:7070px;
+  z-index: -1;
+  left:174px;
+}
+
+.ellipse10{
+  position: absolute;
+  top:6670px;
+  z-index: -1;
+  right:20px;
+}
+
+footer{
+  margin-top: 70px;
+  width: 100%;
+  height: 286px;
+  background: linear-gradient(183.41deg, #458DFC -8.57%, #295ABF 82.96%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  text-align: center;
+}
+
+footer h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.footerIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerIcons :first-child{
+  margin-right: 15px;
+}
+
+
+ @media(min-width: 1625px){
+  .buttonFirstSection{
+    width: 55%;
+  }
+
+  nav{	
+    font-size: 25px;
+  }
+
+
+.firstSection h1{
+  padding-bottom: 55px;
+  font-size: 50px;
+}
+
+.firstSection h2{
+  font-size: 30px;
+}
+
+
+.moreFirstSection{
+padding:20px 11px; 
+font-size: 23px;
+}
+
+.orderFirstSection{
+padding:25px 11px; 
+font-size: 23px;
+}
+
+
+
+.pointsH2{
+    top: 360px;
+    left: 195px;
+    height: 150px;
+}
+
+ .phoneArmFirstSection{
+  width: 468px;
+  height: 525px;
+} 
+
+
+.vectorSecondSectionBackIphone{
+  right: -25%;
+}
+
+.iphoneSecondSection{
+top:1050px ;
+left: 22%;
+}
+
+
+.EllipseThirdSection{
+  left: 6.5%;
+}
+
+.ovalThirdSection{
+  left: 25%;
+}
+
+.firstPhoneThirdSection{
+  left: 20%;
+}
+
+
+.secondLineThirdSection{
+  top: 2195px;
+}
+
+
+.sixthSection{
+  margin-top: 250px;
+}
+
+
+.vectorSecondSectionBackIphone{
+  width: 57%;
+}
+
+.questions p{
+  font-size: 32px;
+}
+
+}
+ 
+
+@media (min-width: 1800px) { 
+
+  .firstSection{
+    position: relative;
+    left: 30px;
+    height: 800px;
+  }
+
+  .firstSection h1{
+    font-size: 60px;
+  }
+
+  .firstSection h2{
+    left: 45px;
+    font-size: 45px;
+}
+
+.phoneArmFirstSection{
+  right: -3%;
+  width: 755px;
+  height: 630px;
+}
+
+.pointsH2{
+  width: 50px;
+  height: 150px;
+  top: 400px;
+  left: 220px;
+}
+
+.buttonFirstSection{
+  width: 55%;
+}
+
+.moreFirstSection{
+  width: 340px;
+  height: 105px;
+  padding:30px 11px; 
+  -webkit-border-radius:28px;
+  -moz-border-radius:28px; 
+  border-radius: 28px; 
+  font-size: 28px;
+  /* font:30px Arial, Helvetica, sans-serif;  */
+  font-weight:bold; 
+  margin-right: 15px;
+}
+
+.orderFirstSection{
+  width: 340px;
+  height: 105px;
+  padding:30px 11px; 
+  -webkit-border-radius:28px;
+  -moz-border-radius:28px; 
+  border-radius: 28px; 
+  font-size: 28px;
+  /* font:30px Arial, Helvetica, sans-serif;  */
+  font-weight:bold; 
+  margin-right: 15px;
+}
+
+nav{
+
+  font-size: 30px;
+}
+
+
+.vectorFirstSection{
+  width: 740px;
+  height: 485px;
+  top: 120px;
+  left: -10%;
+  width: 35%;
+}
+
+.logo{
+  width: 138px;
+  height: 55px;
+  top: 50px;
+  left: 3%;
+}
+
+.pointsFirstSection{
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  top: 140px;
+  left: 1%;
+}
+
+.ellipseFirstSection{
+  top: 50px;
+  right: -10%;
+  z-index: -2;
+  width: 53%;
+}
+
+.vectorArmFirstSection{
+  width: 15%;
+  top: 700px;
+}
+
+.secondSectionFirstText{
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
+.secondSectionSecondText{
+  font-size: 30px;
+  padding-bottom: 50px;
+  margin-top: 15px;
+}
+
+.buttonSecondSection{
+position: relative;
+left: 2px;
+width: 353px;
+height: 93px;
+padding:25px 11px; 
+-webkit-border-radius:30px;
+-moz-border-radius:30px; 
+border-radius: 30px; 
+font-size: 30px;
+/* font:30px Arial, Helvetica, sans-serif;  */
+font-weight:bold;
+margin-bottom: 10px;
+}
+
+.iphone13SecondSection{
+  width: 550px;
+  height: 612px;
+  right: 12%;
+  top:1000px;
+}
+
+.vectorSecondSection{
+  width: 897px;
+  left: -15%;
+}
+
+.vectorSecondSectionBackIphone{
+  top: 850px;
+  right: -20%;
+  width: 977px;
+}
+
+.thirdSection h1{
+  font-size: 50px;
+  width: auto;
+}
+
+.thirdSection h2{
+  font-size: 40px;
+}
+
+
+.button{
+  width: 353px;
+  height: 93px;
+  padding:25px 11px; 
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px; 
+  border-radius: 30px; 
+  font-size: 28px;
+  right: 0px;
+}
+
+.aboutThirdSection{
+  width: 700px;
+  height: 260px;
+  word-wrap: break-word;
+  text-align: right;
+  position: relative;
+  right: 0px;
+  font-size: 35px;
+}
+
+.thirdSectionText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+  .iphone13Pro{
+    position: absolute;
+    top: 2150px;
+    left: 250px;
+  }
+
+  .ellipseThirdSection{
+    width: 55%;
+    top: 2050px;
+    left: 20px;
+  }
+
+  .vectorThirdSection{
+    width: 40%;
+    top: 2250px;
+    right: -5%; 
+  }
+
+
+  .fourthSection h1{
+    font-size: 56px;
+    margin-top: 20px;
+  }
+
+  .Advantages{
+    margin-top: 0px;
+  }
+
+  .consultationH2{
+    font-size: 25px;
+    margin-left: 25px;
+  }
+
+  .consultationText{
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 15px;
+    height:38.13px;
+  }
+
+  .consultationImg{
+    width:98.68px;
+    height: 116.41px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-top: 26px;
+  }
+
+  .consultation{
+    width: 440.24px;
+    height: 360.89px;
+  }
+
+  .tracking{
+    width: 440.24px;
+    height: 360.89px;
+  }
+
+  .trackingH2{
+    font-size: 25px;
+    margin-top: -10px;
+    margin-left: 25px;
+    height: 59px;
+  }
+
+  .trackingText{
+    font-size: 20px;
+    margin-left: 25px;
+    height: 90px;
+  }
+
+  .trackingImg{
+    width: 98.68px;
+    height: 116.41px;
+    margin-left: 25px;
+    margin-top: 26px;
+  }
+
+  .detailInfo{
+    width: 440.24px;
+    height: 360.89px;
+  }
+
+  .detailInfoImg{
+    width: 98.68px;
+    height: 116.41px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .detailInfoH2{
+    font-size: 25px;
+    margin-left: 25px;
+  }
+
+  .detailInfoText{
+    font-size: 23px;
+    margin-left: 25px;
+    height: 39px;
+}
+
+.emergencyCare{
+  width: 440.24px;
+    height: 360.89px;
+}
+
+.emergencyCareImg{
+    width: 98.68px;
+    height: 80.94px;
+    margin-left: 25px;
+}
+
+.emergencyCareH2{
+    font-size: 25px;
+   margin-left: 25px;
+   margin-top: 25px;
+}
+
+.emergencyCareText{
+  font-size: 23px;
+  margin-left: 25px;
+  height: 40px;
+}
+
+.pointsFourthSection{
+  width: 136px;
+  height: 100px;
+  position:absolute;
+  top: 3275px;
+  right:25.5%; 
+  z-index: -1;
+}
+
+.fifthSection h2{
+  font-size: 29px;
+}
+
+footer h1{
+  font-size: 40px;
+}
+}
+
+@media (max-width: 1450px) { 
+
+
+.moreFirstSection{
+  width: 295.97px;
+  height: 72px;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+
+.orderFirstSection{
+  width: 295.97px;
+  height: 72px;
+  font-size: 18px;
+  margin-right: 15px;
+} 
+
+.phoneArmFirstSection{
+    top: 200px; 
+    right: 10%;
+    width: 373px;
+    height: 402px;
+}
+
+
+.vectorFirstSection{
+  top: 150px;
+  width: 40%;
+}
+
+.vectorArmFirstSection{
+    position: absolute;
+    top: 700px;
+    right: -10%;
+}
+
+.pointsH2{
+  top: 355px;
+  left: 195px;
+  height: 140px;
+}
+
+.logo{
+  top: 50px;
+  left: 1%;
+}
+
+
+.buttonSecondSection{
+  width: 250px;
+  height: 70px;
+  font-size: 18px;
+}
+
+
+.vectorSecondSection{
+  top: 1100px;
+  left: -10%;
+}
+
+.vectorSecondSectionBackIphone{
+  top: 770px;
+  right: -25%;
+}
+
+
+.button{
+    width: 260px;
+    height: 70px;
+    padding:16px 11px; 
+    font-size: 18px;
+    font-weight: 800;
+  }
+ 
+  .iphoneSecondSection{
+    left: 15%;
+  }
+  
+  /* .Advantages{
+    width: 1000px;
+  } */
+
+/*   
+  .consultationH2{
+    font-size: 20px;
+    height:60px;
+    margin-left: 5px;
+    padding: 0px;
+  }
+
+  .consultationText{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 0px;
+    height:38.13px;
+  }
+
+  .consultationImg{
+    width:68.68px;
+    height: 76.41px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 6px;
+  }
+
+  .consultation{
+    width: 350.24px;
+    height: 280.89px;
+    padding-top: 25px;
+  }
+
+  .tracking{
+    width: 350.24px;
+    height: 280.89px;
+    padding-top: 25px;
+  }
+
+  .trackingH2{
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 5px;
+    height: 70px;
+  }
+
+  .trackingText{
+    font-size: 17px;
+    margin-left: 5px;
+    height: 105px;
+  }
+
+  .trackingImg{
+    width:68.68px;
+    height: 86.41px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+  }
+
+  .detailInfo{
+    width: 350.24px;
+    height: 280.89px;
+    padding-top: 25px;
+  }
+
+  .detailInfoImg{
+    width: 68.68px;
+    height: 86.41px;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  .detailInfoH2{
+    font-size: 20px;
+    margin-left: 5px;
+    height: 60px;
+  }
+
+  .detailInfoText{
+    font-size: 18px;
+    margin-left: 5px;
+    height: 39px;
+}
+
+.emergencyCare{
+  width: 350.24px;
+  height: 280.89px;
+  padding-top: 25px;
+}
+
+.emergencyCareImg{
+    width: 68.68px;
+    height: 60.94px;
+    margin-left: 5px;
+}
+
+.emergencyCareH2{
+    font-size: 20px;
+   margin-left: 5px;
+   margin-top: 5px;
+   height: 60px;
+}
+
+.emergencyCareText{
+  font-size: 17.5px;
+  margin-left: 5px;
+  height: 40px;
+} */
+
+/* 
+.fifthSection h1{
+  font-size: 35px;
+} */
+
+#tembForm{
+  width: 800px;
+}
+
+
+#flastname{
+  width: 315px;
+  height: 70px;
+  font-size: 18px;
+} 
+
+
+
+#fname{
+  width: 315px;
+  height: 70px;
+  font-size: 18px;
+}
+
+#fadress{
+  width: 650px;
+  height: 70px;
+  font-size: 18px;
+}
+
+#fmail{
+  width: 650px;
+  height: 70px;
+  font-size: 18px;
+}
+
+#ftel{
+  width: 650px;
+  height: 70px;
+  font-size: 18px;
+}
+
+
+#fsubbutton{
+  width: 240px;
+  height: 65.86px;
+  font-size: 20px;
+}
+
+
+
+.sixthSectionMainText{
+  width: 334px;
+  height: auto;
+}
+
+.sixthSection h1{
+  font-size: 40px;
+}
+
+.answers{
+  font-size: 30px;
+}
+
+.questions{
+  width:610px;
+  height: auto;
+}
+
+.questionFirst{
+  width: 278px;
+}
+
+.active{
+width: 570px;
+}
+
+
+.questions p{
+font-size: 25px;
+}
+
+
+.questionSecond{
+width: 570px;
+height:auto;
+}
+
+.questionThird{
+width: 570px;
+
+}
+
+
+.questionFourth{
+width: 430px;
+height:auto;
+}
+
+.active{
+width: 570px;
+}
+
+.questionFifth{
+width: 570px;
+}
+
+
+.questionsImg {
+  position: absolute;
+  top: 5600px;
+  width: 30%;
+}
+
+footer h1{
+font-size: 33px;
+}
+
+  .sixthSection{
+    margin-top: 130px;
+  }
+
+  .TembRights{
+    left: -400px;
+  }
+
+
+}
+
+@media (max-width: 1320px) { 
+  nav{
+    font-size: 18px;
+  }
+
+.buttonFirstSection{
+  width: 70%;
+}
+
+  .moreFirstSection{
+    width: 260.97px;
+    height: 72px;
+    font-size: 18px;
+  }
+    
+  .orderFirstSection{
+    width: 260.97px;
+    height: 72px;
+    font-size: 18px;
+  }
+  
+  
+  .ellipseFirstSection{
+      top: 150px;
+      right: -12%;
+  }
+  
+  .vectorArmFirstSection{
+      top: 700px;
+      right: -5%;
+  }
+  
+  .pointsH2{
+    top: 350px;
+    left: 190px;
+    height: 145px;
+  }
+
+
+.secondSectionFirstText{
+    font-size: 40px;
+}
+
+.icons img:nth-child(1){
+  margin-left: 19px;
+}
+
+.icons img{
+  width: 20%;
+  margin-right: 70px;
+}
+
+.icons p:nth-child(4){
+  margin-left: 5px;
+}
+
+  .buttonSecondSection{
+    width: 243px;
+    height: 70px;
+  }
+  
+  
+  .vectorSecondSection{
+    top: 1000px;
+    left: -15%;
+  }
+  
+  .vectorSecondSectionBackIphone{
+    top: 750px;
+    right: -25%;
+  }
+
+  .Ellipse6{
+    width: 15%;
+  }
+
+  .Ellipse5{
+    width: 15%;
+  }
+
+  .Ellipse2{
+    width: 15%;
+  }
+
+  .linesSecondSection{
+    top: 1000px;
+    width: 90%;
+ }
+
+  .thirdSectionMainText{
+    font-size: 50px;
+  }
+  
+  .rectangleThirdSEctionAnimation{
+    height: 300px;
+  }
+
+  .thirdSectionAnimation{
+    top: 215px;
+  }
+
+  .EllipseThirdSection{
+    width: 60%;
+    top:2200px ;
+    left: 20px;
+  }
+
+  .ovalThirdSection{
+    top:2440px ;
+    left: 220px;
+    width: 291px;
+    height: 291px;
+  }
+
+  .firstPhoneThirdSection{
+    top:2360px ;
+    left: 140px;
+    width: 424px;
+    height: 410px;
+  }
+
+  .thirdSectionText h1{
+    font-size: 35px;
+  }
+
+  .thirdSectionText h2{
+    font-size: 22px;
+  }
+
+  .aboutThirdSection{
+    font-size: 15px;
+  }
+
+  .button{
+    font-size: 18px;
+  }
+
+  .firstLineThirdSection{
+    height: 245px;
+  }
+
+  
+    .fourthSection{
+      margin-top: 200px;
+    }
+
+    .fourthSection h1{
+      font-size: 35px;
+      margin-top: 20px;
+    }
+   
+  .consultationH2{
+    font-size: 17px;
+    height: 40px;
+  }
+
+  .consultationText{
+    font-size: 12px;
+    height: 55px;
+    margin-bottom: 55px;
+  }
+
+  .aTracking{
+    height: 25px;
+  }
+
+
+  .consultation{
+    width: 236px;
+    height: 314px;
+  }
+  
+    .tracking{
+      width: 236px;
+      height: 314px;
+    }
+  
+    .trackingH2{
+      font-size: 17px;
+      height:40px;
+
+    }
+  
+    .trackingText{
+      font-size: 12px;
+      height: 80px;
+      margin-bottom: 40px;
+    }
+  
+  
+    .detailInfo{
+      width: 236px;
+      height: 314px;
+    }
+  
+  
+    .detailInfoH2{
+      font-size: 17px;
+      height: 45px;
+    }
+  
+    .detailInfoText{
+      font-size: 12px;
+      height: 50px;
+      margin-bottom: 70px;
+  }
+  
+  .emergencyCare{
+    width: 236px;
+    height: 314px;
+  }
+  
+  .emergencyCareH2{
+    font-size: 17px;
+    height: 47px;
+  }
+  
+  .emergencyCareText{
+    font-size: 12px;
+    height: 50px;
+    margin-bottom: 70px;
+  }
+ 
+  .roundTextSvg{
+    width: 65%;
+  }
+  
+  .roundTextIphone{
+    width: 488.86px;
+    height: 510.78px;
+    left: calc(100vw/2 - 225px);
+    top: 3740px;
+  }
+  
+  .round{
+    width: 590px;
+    height: 584px;
+    left: calc(100vw/2 - 280px);
+    top: 3735px;
+  }
+
+  .infusion{
+    width: 30%;
+  }
+  
+  .thermoGun{
+    width: 25%;
+  }
+  
+  .syringe{
+    width: 25%;
+  }
+  
+  .stetoscope{
+    width: 30%;
+    top: 4100px;
+    right: 0%;
+  }
+
+  .fifthSection{
+    margin-top: 200px;
+  }
+  
+  .fifthSection h1{
+    font-size: 35px;
+  }
+
+  #tembForm{
+    width: 800px;
+  }
+  
+  
+  #flastname{
+    width: 315px;
+    height: 70px;
+    font-size: 18px;
+  } 
+  
+  #fname{
+    width: 315px;
+    height: 70px;
+    font-size: 18px;
+  }
+  
+  #fmail{
+    width: 650px;
+    height: 70px;
+    font-size: 18px;
+  }
+  
+  #ftel{
+    width: 650px;
+    height: 70px;
+    font-size: 18px;
+  }
+  
+  
+  #fsubbutton{
+    width: 240px;
+    height: 65.86px;
+    font-size: 20px;
+  }
+  
+  
+  .sixthSection h1{
+    font-size: 38px;
+  }
+  
+  .answers{
+    font-size: 28px;
+  }
+  
+  .questions{
+    width:550px;
+  }
+  
+  .questionFirst{
+    width: 230px;
+  }
+  
+  .active{
+  width: 460px;
+  }
+  
+  
+  .questions p{
+  font-size: 20px;
+  }
+  
+  
+  .questionSecond{
+  width: 460px;
+  height:auto;
+  }
+  
+  .questionThird{
+  width: 460px;
+  
+  }
+  
+  
+  .questionFourth{
+  width: 360px;
+  height:auto;
+  }
+  
+  .active{
+  width: 460px;
+  }
+  
+  .questionFifth{
+  width: 460px;
+  }
+  
+
+  .ellipse7{
+    top:6200px; 
+    width: 306px;
+    height: 280px;
+  }
+  
+  .ellipse8{
+    top:6770px;
+    right: 20px;
+    width: 276px;
+    height: 250px;
+  }
+  
+  .ellipse9{
+    top:6800px;
+    left:174px;
+  }
+  
+  .ellipse10{
+    top:6370px;
+    right:20px;
+  }
+
+  footer h1{
+  font-size: 30px;
+  }
+
+  }
+
+  @media(max-width: 1165px){
+    .phoneArmFirstSection{
+      right: -8%;
+  }
+  
+
+  }
+
+  @media(min-width: 2000px){
+
+    .buttonFirstSection{
+      width: 50%;
+    }
+
+    .firstSection h1{
+      font-size: 70px;
+    }
+
+    .firstSection h2{
+      font-size: 55px;
+    }
+
+    .pointsH2{
+      top: 420px;
+      height: 180px;
+    }
+
+    .pointsFourthSection{
+      top: 3115px;
+      right: 28%;
+    }
+
+    .buttonSecondSection{
+      height: 100px;
+    }
+
+  }
+  
+
+  
